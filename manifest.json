@@ -1,0 +1,15 @@
+{
+    "name": "IDWM",
+    "version": "1.0",
+    "description": "cine2nerdle assistant",
+    "manifest_version": 3,
+    "content_scripts": [
+      {
+        "js": ["scripts/scripts.js"],
+        "matches": [
+          "http://127.0.0.1/test/*"
+        ]
+      }
+    ]
+  }
+  
